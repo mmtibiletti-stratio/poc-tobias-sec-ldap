@@ -1,0 +1,8 @@
+# Configuración del LDAP de clientes
+tobias:
+  clients:
+      ldap:
+        url: ldap://ldap.dev.corp:389
+        base: ou=Usuarios,o=Banksphere,c=es
+        user: uid=admBanksphere,o=personas,c=es
+        pwd: admin
