@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index() {
-        return "Welcome to the home page!";
+        return "Welcome to the private resource!";
     }
 
 }
